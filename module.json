@@ -1,0 +1,53 @@
+{
+  "id": "cyberpunk-red-megapack",
+  "title": "Cyberpunk RED:  Megapack",
+  "description": "All-in-one Module to get a Cyberpunk RED game set up quickly. Includes all PDFs and some useful rollable tables.",
+  "version": "0.0.1",
+  "readme": "https://raw.githubusercontent.com//3lixir-Ltd/cyberpunk-red-megapack/master/README.md",
+  "license": "PROPRIETARY",
+  "bugs": "https://github.com/3lixir-Ltd/cyberpunk-red-megapack/issues",
+  "changelog": "https://raw.githubusercontent.com//3lixir-Ltd/cyberpunk-red-megapack/master/README.md",
+  "url": "https://3lixir.co.uk",
+  "manifest": "https://raw.githubusercontent.com/3lixir-Ltd/cyberpunk-red-megapack/master/module.json",
+  "download": "https://github.com/3lixir-Ltd/cyberpunk-red-megapack/releases/latest/download/cyberpunk-red-megapack.zip",
+  "authors": [
+    {
+      "name": "3lixir Ltd",
+      "url": "https://3lixir.co.uk",
+      "discord": "3lixirttv",
+      "flags": {
+        "patreon": "3lixir",
+        "github": "3lixir-Ltd"
+      }
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "11.999"
+  },
+  "packs": [
+    {
+      "name": "cyberpunk-red-pdfs",
+      "label": "Cyberpunk RED: PDFs",
+      "path": "packs/cyberpunk-red-pdfs",
+      "type": "JournalEntry",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-red-rolltables",
+      "label": "Cyberpunk RED: Rolltables",
+      "path": "packs/cyberpunk-red-rolltables",
+      "type": "RollTable",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
